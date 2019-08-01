@@ -35,7 +35,22 @@ body {
   opacity: 0.8;
   width: 750px;
   height: 130px;
+  position: relative;
   border-radius: 5px;
+}
+
+.textbox-container::after {
+  content: '';
+  position: absolute;
+  bottom: -16px;
+  left: 0;
+  border-width: 1em;
+  border-left-color: whitesmoke;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-bottom-color: transparent;
+  border-style: solid;
+  transform: rotate(225deg);
 }
 
 .textbox-position {
@@ -58,7 +73,7 @@ body {
 .card-container {
   display: flex;
   flex-direction: row;
-  margin-top: 620px;
+  margin-top: 6px;
   margin-left: -1270px;
   align-items: center;
   justify-content: center;
@@ -89,6 +104,15 @@ body {
   background-color: #031019;
   height: 500px;
   width: 1351px;
+}
+
+.article {
+  border-radius: 5px;
+
+}
+
+.article-header {
+  display: inline-flex;
 }
 
 /* END CONTENT */
