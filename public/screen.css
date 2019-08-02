@@ -38,6 +38,21 @@ body {
   height: 130px;
   position: relative;
   border-radius: 5px;
+  /* padding-left: 1rem; */
+  /* padding-top: 1rem; */
+  /* margin-left: 50rem; */
+}
+
+.textbox-header-text {
+  padding-left: 1rem;
+  /* padding-top: 1rem; */
+  font-size: 45px;
+}
+
+.textbox-text {
+  padding-left: 1rem;
+  margin-top: -1rem;
+  font-size: 25px;
 }
 
 .textbox-container::after {
