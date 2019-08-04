@@ -94,14 +94,14 @@ body {
   display: inline-flex;
   width: 18rem;
   height: 12rem;
-  padding-right: 2rem;
+  margin-right: 2rem;
   cursor: pointer;
   border-radius: 7px;
   object-fit: cover;
 }
 
 .last-card {
-  padding: 0;
+  margin: 0;
 }
 
 /* END CARDS */
